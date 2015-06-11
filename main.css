@@ -55,3 +55,18 @@
 	font-family: Arial, sans-serif;
 }
 
+#find-food {
+	background-color: white;
+}
+
+#find-food .form-group, #find-food p {
+	color: black;
+	font-family: Georgia, serif;
+	font-weight: 100;
+}
+
+.btn {
+	background-color: #E68A2E;
+	color: white;
+	text-transform: uppercase;
+}
