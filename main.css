@@ -1,0 +1,57 @@
+#dinner-navbar li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	letter-spacing: 2px;
+	line-height: 50px;
+	font-size: 12px;
+	float: right;
+}
+
+#dinner-navbar li a {
+	color: black;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+#top img {
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+}
+
+#dinner-navbar {
+	padding-right: 60px;
+}
+
+#dinner-navbar li a:hover, #dinner-navbar li a:focus {
+	text-decoration: none;
+	background-color: white;
+	color: #5CE6B8;
+	border-top: 4px solid #5CE6B8;
+}
+
+#freaking-food {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/Background-Image.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+}
+
+#freaking-food p {
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	font-family: Georgia, serif;
+	letter-spacing: 1.2px;
+	line-height: .5;
+}
+
+#freaking-food p.text-uppercase {
+	font-size: 36px;
+	letter-spacing: 3px;
+	line-height: 1.2;
+	font-family: Arial, sans-serif;
+}
+
