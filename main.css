@@ -57,12 +57,19 @@
 
 #find-food {
 	background-color: white;
+	padding: 12px;
 }
 
-#find-food .form-group, #find-food p {
+#find-food .form-group, #find-food label {
 	color: black;
 	font-family: Georgia, serif;
 	font-weight: 100;
+}
+
+#find-food input {
+	border-radius: 0;
+	font-family: Arial, sans-serif;
+	color: black;
 }
 
 .btn {
