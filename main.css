@@ -58,6 +58,7 @@
 #find-food {
 	background-color: white;
 	padding: 12px;
+	width: 55%;
 }
 
 #find-food .form-group, #find-food label {
@@ -70,10 +71,85 @@
 	border-radius: 0;
 	font-family: Arial, sans-serif;
 	color: black;
+	letter-spacing: 1.2px;
 }
 
 .btn {
 	background-color: #E68A2E;
 	color: white;
 	text-transform: uppercase;
+	border: 0;
+	border-radius: 0;
+	letter-spacing: 2px;
+	display: block;
+	margin: 0 auto;
+	padding: 8px 16px;
+}
+
+.form-group.col-md-4 {
+	margin-top: 12px;
+	margin-bottom: 22px;
+}
+
+button.btn.btn-default:hover {
+background-color: #5CE6B8;
+color: white;
+transition: .4s ease-out;
+}
+
+select#hangry-opts {
+border-radius: 0px;
+font-family: Arial, sans-serif;
+letter-spacing: 1.2px
+}
+
+div#line-break hr {
+width: 8%;
+display: block;
+margin: 50px auto;
+border-top: 1px solid black;
+}
+
+#mmd-nation {
+color: #5CE6B8;
+font-size: 28px;
+display: block;
+text-align: center;
+letter-spacing: 2px;
+}
+
+#get-food li {
+border-bottom: 1px solid black;
+padding-bottom: 4px;
+padding-top: 4px;
+font-size: 10px;
+list-style: none;
+}
+
+#get-food li a {
+color: black;
+}
+
+#onion-bowl {
+	background-image: url('images/onions.png');
+	background-repeat: no-repeat;
+}
+
+html, body, #map-canvas { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+}
+
+footer {
+background-color: #333333;
+color: white
+}
+
+footer p.text-uppercase {
+margin-bottom: 0;
+padding: 10px;
+text-align: center;
+font-size: 10px;
+letter-spacing: 1.2px
 }
