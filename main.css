@@ -100,6 +100,11 @@ color: white;
 transition: .4s ease-out;
 }
 
+#find-food .btn {
+	padding: 10px 24px;
+	font-size: 16px;
+}
+
 select#hangry-opts {
 	border-radius: 0px;
 	font-family: Arial, sans-serif;
@@ -108,6 +113,9 @@ select#hangry-opts {
   	-webkit-appearance: none;
   	color: black;
   	font-size: 12px;
+  	background: url("images/arrow.png") right no-repeat;
+  	background-size: 22px;
+  	overflow: hidden;
 }
 
 div#line-break hr {
@@ -177,10 +185,18 @@ h1.headliner {
 
 #favorites {
 	margin: 0 auto;
+	width: 82.5%;
 }
 
-#favorites img {
-	padding: 5px;
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#fav-imgs {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 15px;
 }
 
 .burger {
@@ -189,23 +205,33 @@ h1.headliner {
 
 #what {
 	background-color: #5CE6B8;
+	width: 80%;
+	padding-left: 25px;
 }
 
 #what h3 {
 	color: white;
 	letter-spacing: 3px;
-	padding: 12px;
+	padding-top: 12px;
 	font-size: 28px;
 }
 
-#what img {
-	height: 50px;
+#what #four-icons img {
+	height: 60px;
+	padding-right: 4px;
+	padding-bottom: 20px;
+}
+
+#what p {
+	font-size: 16px;
+	width: 75%;
+	margin-bottom: 20px;
 }
 
 #what #phone {
-	height: 260px;
+	height: 280px;
 	display: block;
-	margin: 20px auto 0 auto;
+	margin: 25px auto 0 auto;
 	padding: 0;
 }
 
