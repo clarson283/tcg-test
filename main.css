@@ -185,7 +185,7 @@ h1.headliner {
 
 #favorites {
 	margin: 0 auto;
-	width: 82.5%;
+	width: 80%;
 }
 
 .container {
@@ -199,8 +199,29 @@ h1.headliner {
 	margin-bottom: 15px;
 }
 
-.burger {
-	margin-top: 10px;
+#fav-imgs .thumbnail {
+	position: relative;
+}
+
+.hover-stuff {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 3px;
+}
+
+.hover-stuff button {
+	background-color: inherit;
+	border: 2px solid #5CE6B8;
+	border-radius: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding: 4px 14px;
 }
 
 #what {
