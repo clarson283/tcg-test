@@ -141,8 +141,22 @@ h1.headliner {
 	background-color: #5CE6B8;
 }
 
+#what h3 {
+	color: white;
+	letter-spacing: 3px;
+	padding: 12px;
+	font-size: 28px;
+}
+
 #what img {
 	height: 60px;
+}
+
+#what #phone {
+	height: 260px;
+	display: block;
+	margin: 20px auto 0 auto;
+	padding: 0;
 }
 
 #get-food {
