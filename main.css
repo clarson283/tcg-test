@@ -201,6 +201,8 @@ h1.headliner {
 
 #fav-imgs .thumbnail {
 	position: relative;
+	border: 0;
+	margin-bottom: 16px
 }
 
 .hover-stuff {
