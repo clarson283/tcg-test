@@ -252,6 +252,7 @@ letter-spacing: 1.5px;
 
 button#submit {
 	margin-left: 0;
+	margin-bottom: 16px;
 }
 
 footer {
