@@ -66,6 +66,7 @@
 	color: black;
 	font-family: Georgia, serif;
 	font-weight: 100;
+	font-size: 12px;
 }
 
 #find-food input {
@@ -73,6 +74,7 @@
 	font-family: Arial, sans-serif;
 	color: black;
 	letter-spacing: 1.2px;
+	font-size: 12px;
 }
 
 .btn {
@@ -99,15 +101,19 @@ transition: .4s ease-out;
 }
 
 select#hangry-opts {
-border-radius: 0px;
-font-family: Arial, sans-serif;
-letter-spacing: 1.2px
+	border-radius: 0px;
+	font-family: Arial, sans-serif;
+	letter-spacing: 1.2px;
+	background: transparent;
+  	-webkit-appearance: none;
+  	color: black;
+  	font-size: 12px;
 }
 
 div#line-break hr {
 width: 8%;
 display: block;
-margin: 50px auto;
+margin: 50px auto 30px auto;
 border-top: 1px solid black;
 }
 
@@ -121,17 +127,52 @@ h1.headliner {
 	margin-top: 0;
 }
 
-#join-mmd h1.headliner, #favorites h1.headliner {
+#join-mmd {
+	width: 80%;
+	margin-bottom: 25px;
+}
+
+#join-mmd h1.headliner {
+	text-align: center;
+}
+
+#favorites h1.headliner {
 	text-align: center;
 	margin-bottom: 40px;
 }
 
+#counter {
+	padding-left: 0;
+}
+
 #join-mmd span {
-	font-size: 28px;
-	font-weight: bold;
-	padding: 6px;
-	margin: 6px;
-	border: 1px solid black;
+	font-size: 34px;
+	color: black;
+	padding: 4px 8px;
+	margin: 2px;
+	border: 1px solid #B2B2B2;
+}
+
+#join-mmd #lastNum {
+	border: 1px solid #5CE6B8;
+}
+
+#notSubtle {
+	color: #B2B2B2;
+	letter-spacing: 3px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+#testimonials {
+	width: 80%;
+	margin-bottom: 50px
+}
+
+#testimonials img {
+	width: 100%;
+	display: block;
+	margin: auto;
 }
 
 #favorites {
@@ -158,7 +199,7 @@ h1.headliner {
 }
 
 #what img {
-	height: 60px;
+	height: 50px;
 }
 
 #what #phone {
@@ -219,6 +260,14 @@ letter-spacing: 1.5px;
 	padding: 18px 6px;
 }
 
+#contact-map {
+	width: 80%;
+}
+
+#contact-us {
+	padding-left: 0;
+}
+
 #contact-us .form-group {
 	padding-left: 0;
 	margin-bottom: 22px;
@@ -232,21 +281,21 @@ letter-spacing: 1.5px;
 	font-size: 12px;
 }
 
-#inputFirstName::-webkit-input-placeholder, #inputLastName::-webkit-input-placeholder, #inputPhoneNumber::-webkit-input-placeholder, #inputEmail::-webkit-input-placeholder, #inputMessage::-webkit-input-placeholder {
+#ingr-one::-webkit-input-placeholder, #ingr-two::-webkit-input-placeholder, #inputFirstName::-webkit-input-placeholder, #inputLastName::-webkit-input-placeholder, #inputPhoneNumber::-webkit-input-placeholder, #inputEmail::-webkit-input-placeholder, #inputMessage::-webkit-input-placeholder {
     color: black;
 }
 
-#inputFirstName:-moz-placeholder, #inputLastName:-moz-placeholder, #inputPhoneNumber:-moz-placeholder, #inputEmail:-moz-placeholder, #inputMessage:-moz-placeholder {
+#ingr-one:-moz-placeholder, #ingr-two:-moz-placeholder, #inputFirstName:-moz-placeholder, #inputLastName:-moz-placeholder, #inputPhoneNumber:-moz-placeholder, #inputEmail:-moz-placeholder, #inputMessage:-moz-placeholder {
    color: black;
    opacity:  1;
 }
 
-#inputFirstName::-moz-placeholder, #inputLastName::-moz-placeholder, #inputPhoneNumber::-moz-placeholder, #inputEmail::-moz-placeholder, #inputMessage::-moz-placeholder {
+#ingr-one::-moz-placeholder, #ingr-two::-moz-placeholder, #inputFirstName::-moz-placeholder, #inputLastName::-moz-placeholder, #inputPhoneNumber::-moz-placeholder, #inputEmail::-moz-placeholder, #inputMessage::-moz-placeholder {
    color: black;
    opacity:  1;
 }
 
-#inputFirstName:-ms-input-placeholder, #inputLastName:-ms-input-placeholder, #inputPhoneNumber:-ms-input-placeholder, #inputEmail:-ms-input-placeholder, #inputMessage:-ms-input-placeholder { 
+#ingr-one:-ms-input-placeholder, #ingr-two:-ms-input-placeholder, #inputFirstName:-ms-input-placeholder, #inputLastName:-ms-input-placeholder, #inputPhoneNumber:-ms-input-placeholder, #inputEmail:-ms-input-placeholder, #inputMessage:-ms-input-placeholder { 
    color:    black;
 }
 
