@@ -118,11 +118,20 @@ h1.headliner {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	margin-top: 0;
 }
 
 #join-mmd h1.headliner, #favorites h1.headliner {
 	text-align: center;
 	margin-bottom: 40px;
+}
+
+#join-mmd span {
+	font-size: 28px;
+	font-weight: bold;
+	padding: 6px;
+	margin: 6px;
+	border: 1px solid black;
 }
 
 #favorites {
@@ -212,6 +221,37 @@ letter-spacing: 1.5px;
 
 #contact-us .form-group {
 	padding-left: 0;
+	margin-bottom: 22px;
+}
+
+#contact-us .form-control {
+	color: #5CE6B8;
+	letter-spacing: 2px;
+	border-radius: 0;
+	border-color: black;
+	font-size: 12px;
+}
+
+#inputFirstName::-webkit-input-placeholder, #inputLastName::-webkit-input-placeholder, #inputPhoneNumber::-webkit-input-placeholder, #inputEmail::-webkit-input-placeholder, #inputMessage::-webkit-input-placeholder {
+    color: black;
+}
+
+#inputFirstName:-moz-placeholder, #inputLastName:-moz-placeholder, #inputPhoneNumber:-moz-placeholder, #inputEmail:-moz-placeholder, #inputMessage:-moz-placeholder {
+   color: black;
+   opacity:  1;
+}
+
+#inputFirstName::-moz-placeholder, #inputLastName::-moz-placeholder, #inputPhoneNumber::-moz-placeholder, #inputEmail::-moz-placeholder, #inputMessage::-moz-placeholder {
+   color: black;
+   opacity:  1;
+}
+
+#inputFirstName:-ms-input-placeholder, #inputLastName:-ms-input-placeholder, #inputPhoneNumber:-ms-input-placeholder, #inputEmail:-ms-input-placeholder, #inputMessage:-ms-input-placeholder { 
+   color:    black;
+}
+
+button#submit {
+	margin-left: 0;
 }
 
 footer {
@@ -223,6 +263,6 @@ footer p.text-uppercase {
 	margin-bottom: 0;
 	padding: 16px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 9px;
 	letter-spacing: 1.2px
 }
