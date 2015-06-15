@@ -198,12 +198,29 @@ h1.headliner {
 	padding: 0;
 	margin-bottom: 15px;
 }
-
+/*
+#fav-imgs .thumbnail img {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+	background-color: black;
+	opacity: .8;
+}
+*/
 #fav-imgs .thumbnail {
 	position: relative;
 	border: 0;
 	margin-bottom: 16px
 }
+
+#fav-imgs .thumbnail:hover .hover-stuff {
+	opacity: 1;
+	transition: 1s ease-out;
+}
+
+.thumbnail img:hover {
+	opacity: 1;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+	transition: 1s ease-out;
+} 
 
 .hover-stuff {
 	position: absolute;
@@ -214,6 +231,7 @@ h1.headliner {
 	color: white;
 	font-size: 24px;
 	letter-spacing: 3px;
+	opacity: 0;
 }
 
 .hover-stuff button {
