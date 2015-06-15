@@ -14,6 +14,10 @@
 	border-bottom: 4px solid white;
 }
 
+.navbar-toggle .icon-bar {
+	background-color: #5CE6B8;
+}
+
 #top img {
 	height: 52px;
 	float: left;
@@ -60,6 +64,7 @@
 	background-color: white;
 	padding: 12px;
 	width: 55%;
+	margin-top: -80px;
 }
 
 #find-food .form-group, #find-food label {
@@ -151,6 +156,8 @@ h1.headliner {
 
 #counter {
 	padding-left: 0;
+	vertical-align: bottom;
+	color: #5CE6B8;
 }
 
 #join-mmd span {
@@ -181,6 +188,10 @@ h1.headliner {
 	width: 100%;
 	display: block;
 	margin: auto;
+}
+
+.carousel-indicators li {
+	float: right;
 }
 
 #favorites {
@@ -267,6 +278,7 @@ h1.headliner {
 	font-size: 16px;
 	width: 75%;
 	margin-bottom: 20px;
+	padding-top: 10px;
 }
 
 #what #phone {

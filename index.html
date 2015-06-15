@@ -23,20 +23,27 @@
 <body>
 	<nav class="container" id="top">
 		<img src="images/LOGO.png">
-
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavBar">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			     </button>
+			     <div class="collapse navbar-collapse" id="myNavBar">
 		<ul class="nav" id="dinner-navbar">
 			<li><a href="#">Contact</a></li>
 			<li><a href="#">About Us</a></li>
 			<li><a href="#">Recipes</a></li>
 			<li><a href="#">Home</a></li>
 		</ul>
+		</div>
 
 	</nav>
 
 	<div class="container-fluid" id="freaking-food">
 		<p class="text-uppercase">Casually tell someone to make<br>you some freaking food</p>
 		<p>Give us somewhere to start, what kind of food do you want?</p>
-		<br>
+	</div>
 		<div class="container" id="find-food">
 			<form>
 				<div class="form-group col-md-4">
@@ -59,7 +66,6 @@
 				<button class="btn btn-default" type="submit" value="Find Me Food"> Find Me Food</button>
 			</form>
 		</div>
-	</div>
 
 	<div id="line-break"><hr></div>
 
@@ -70,7 +76,47 @@
 	</div>
 
 	<div id="testimonials" class="container">
-		<img src="images/rachel.png">
+
+
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/rachel.png" alt="Rachel">
+		      <div class="carousel-caption">
+		       	<h2>Hear from our happy, food filled users</h2>
+				<p>I love Make Me Dinner. I was having a crappy day yesterday and not so subtly sent a MMD recipe to my boyfriend. When I got home there it was waiting for me. It's the easiest way to tell someone you just want some food, alright?</p>
+				<p class="citation">Rachel Stone</p>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="images/lady-two.png" alt="lady">
+		      <div class="carousel-caption">
+		        <h2>Hear from our happy, food filled users</h2>
+		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+		        <p class="citation"></p>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="images/couple.png" alt="couple">
+		      <div class="carousel-caption">
+		        <h2>Hear from our happy, food filled users</h2>
+		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+		        <p class="citation"></p>
+		      </div>
+		    </div>
+		  </div>
+		
+		</div>
+
 	</div>
 
 	<div class="container text-uppercase" id="favorites">
