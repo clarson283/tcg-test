@@ -50,15 +50,9 @@
 		padding-top: 20px;
 		font-family: Georgia, serif;
 		letter-spacing: 1.2px;
-		line-height: .5;
+		line-height: 1;
 	}
 
-		#freaking-food p.text-uppercase {
-			font-size: 36px;
-			letter-spacing: 3px;
-			line-height: 1.2;
-			font-family: Arial, sans-serif;
-		}
 
 #find-food {
 	background-color: white;
@@ -529,9 +523,25 @@ footer {
    	font-size: 16px;
    }
 
+   #freaking-food p.text-uppercase {
+			font-size: 20px;
+			letter-spacing: 2px;
+			line-height: 1.2;
+			font-family: Arial, sans-serif;
+	}
+
+
 }
 
 @media (min-width: 768px) {
+	
+	#freaking-food p.text-uppercase {
+			font-size: 36px;
+			letter-spacing: 3px;
+			line-height: 1.2;
+			font-family: Arial, sans-serif;
+	}
+
 	h1.headliner {
 		text-align: left;
 		margin-bottom: 30px;
