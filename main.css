@@ -205,7 +205,6 @@ h1.headliner {
 
 #favorites {
 	margin: 0 auto;
-	width: 80%;
 }
 
 	#favorites h1.headliner {
@@ -221,7 +220,6 @@ h1.headliner {
 #fav-imgs {
 	width: 100%;
 	padding: 0;
-	margin-bottom: 15px;
 }
 
 	#fav-imgs .thumbnail {
@@ -276,8 +274,6 @@ h1.headliner {
 
 #what {
 	background-color: #5CE6B8;
-	width: 80%;
-	padding-left: 25px;
 }
 
 	#what h3 {
@@ -417,10 +413,10 @@ footer {
 
 
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
    
-   .container (or #favorites) { 
-        width: 100%;
+   .container { 
+        width: 95%;
    }
 
    h1.headliner {
@@ -430,8 +426,7 @@ footer {
    }
 
    #contact-map {
-        padding: 4px;
-        width: 100%;
+        width: 95%;
    }
 
    #contact-us {
@@ -471,6 +466,11 @@ footer {
         padding-top: 10px;
    }
 
+   #what {
+		width: 95%;
+		padding-left: 0px;
+	}
+
    #what #four-icons img {
         height: 50px;
    }
@@ -478,13 +478,36 @@ footer {
    #what #phone {
         margin: 0px auto 0 auto;
    }
+
+   #favorites {
+   	width: 100%;
+   }
+
+	#fav-imgs {
+		width: 95%;
+		margin-bottom: 5px;
+	}
+
+   #fav-imgs .thumbnail {
+   	height: 130px;
+   	overflow: hidden;
+   	width: 100%;
+   }
    
-   img.img-class.burger.img-responsive {
+   img.img-class.burger {
         margin-top: -10%;
    }
 
-   img.img-class.img-responsive.coffee {
-        margin-top: -140%;
+   img.img-class.coffee {
+        margin-top: -150%;
+   }
+
+   img.img-class.cone {
+   		margin-top: -20%;
+   }
+
+   img.img-class.garlic {
+   		margin-top: -20%;
    }
 
    .hover-stuff {
@@ -499,6 +522,19 @@ footer {
 		text-align: left;
 		margin-bottom: 30px;
 		font-size: 28px;
+	}
+
+	#favorites {
+		width: 80%;
+	}
+	
+	#fav-imgs {
+		margin-bottom: 15px;
+	}
+
+	#what {
+		width: 80%;
+		padding-left: 25px;
 	}
 
 	#contact-map {
