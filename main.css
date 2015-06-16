@@ -138,7 +138,6 @@ border-top: 1px solid black;
 h1.headliner {
 	color: #5CE6B8;
 	display: block;
-	letter-spacing: 3px;
 	text-transform: uppercase;
 	margin-top: 0;
 }
@@ -426,6 +425,7 @@ footer {
         text-align: center;
         font-size: 20px;
         margin-bottom: 20px;
+        letter-spacing: 2px;
    }
 
    #contact-map {
@@ -533,6 +533,7 @@ footer {
 		text-align: left;
 		margin-bottom: 30px;
 		font-size: 28px;
+		letter-spacing: 3px;
 	}
 
 	#join-mmd {
