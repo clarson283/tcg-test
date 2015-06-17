@@ -22,9 +22,10 @@ function initialize() {
 	}
 
       google.maps.event.addDomListener(window, 'load', initialize);
-/*
-      $("#favorites").on('img,' 'mouseenter', function () {
 
+/*
+      $("#fav-imgs").mouseenter( function () {
+          $("#fav-imgs img").css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))');
       });
 */
 });

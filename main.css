@@ -533,6 +533,16 @@ footer {
 
 }
 
+@media (max-width: 768px) {
+		#fav-imgs .thumbnail {
+		   	height: 280px;
+		   	overflow: hidden;
+		   	width: 80%;
+		   	margin: auto;
+		   	float: none !important;
+		   }
+	}
+
 @media (min-width: 768px) {
 	
 	#freaking-food p.text-uppercase {
