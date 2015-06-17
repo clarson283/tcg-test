@@ -30,10 +30,8 @@
 }
 
 #top img {
-	height: 52px;
 	float: left;
 	margin-top: 8px;
-	padding-left: 60px;
 }
 
 #freaking-food {
@@ -524,10 +522,15 @@ footer {
    }
 
    #freaking-food p.text-uppercase {
-			font-size: 20px;
+			font-size: 18px;
 			letter-spacing: 2px;
 			line-height: 1.2;
 			font-family: Arial, sans-serif;
+	}
+
+	#top img {
+		padding-left: 0;
+		height: 34px;
 	}
 
 
@@ -565,6 +568,11 @@ footer {
 			letter-spacing: 3px;
 			line-height: 1.2;
 			font-family: Arial, sans-serif;
+	}
+
+	#top img {
+		height: 52px;
+		padding-left: 60px;
 	}
 
 	h1.headliner {
