@@ -443,6 +443,10 @@ footer {
    		font-size: 18px;
    }
 
+   #get-food {
+   		padding: 20px 40px;
+   }
+
    #what h3 {
         font-size: 18px;
         letter-spacing: 2px;
