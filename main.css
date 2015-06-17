@@ -534,13 +534,13 @@ footer {
 }
 
 @media (max-width: 768px) {
-		#fav-imgs .thumbnail {
+		/*#fav-imgs .thumbnail {
 		   	height: 280px;
 		   	overflow: hidden;
 		   	width: 95%;
 		   	margin: auto;
 		   	float: none !important;
-		   }
+		   }*/
 
 		#what {
 			width: 95%;
