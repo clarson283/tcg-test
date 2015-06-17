@@ -55,8 +55,6 @@
 #find-food {
 	background-color: white;
 	padding: 12px;
-	width: 55%;
-	margin-top: -80px;
 }
 
 	#find-food .form-group, #find-food label {
@@ -533,6 +531,10 @@ footer {
 		height: 34px;
 	}
 
+	#find-food {
+		width: 95%;
+		margin-top: -160px;
+	}
 
 }
 
@@ -564,10 +566,15 @@ footer {
 @media (min-width: 768px) {
 	
 	#freaking-food p.text-uppercase {
-			font-size: 36px;
-			letter-spacing: 3px;
-			line-height: 1.2;
-			font-family: Arial, sans-serif;
+		font-size: 36px;
+		letter-spacing: 3px;
+		line-height: 1.2;
+		font-family: Arial, sans-serif;
+	}
+
+	#find-food {
+		width: 55%;
+		margin-top: -80px;
 	}
 
 	#top img {
