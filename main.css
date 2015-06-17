@@ -536,6 +536,10 @@ footer {
 		margin-top: -140px;
 	}
 
+	#find-food .btn {
+		width: 92%;
+	}
+
 }
 
 @media (max-width: 768px) {
