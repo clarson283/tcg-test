@@ -476,7 +476,7 @@ footer {
    }
 
    #favorites {
-   	width: 100%;
+   		width: 100%;
    }
 
    #favorites.h1.headliner {
@@ -537,10 +537,25 @@ footer {
 		#fav-imgs .thumbnail {
 		   	height: 280px;
 		   	overflow: hidden;
-		   	width: 80%;
+		   	width: 95%;
 		   	margin: auto;
 		   	float: none !important;
 		   }
+
+		#what {
+			width: 95%;
+		}
+
+		#what h3, #what p {
+			text-align: center;
+			width: 80%;
+			margin: auto;
+		}
+
+		#four-icons {
+	        text-align: center;
+	        padding-top: 10px;
+   		}
 	}
 
 @media (min-width: 768px) {
