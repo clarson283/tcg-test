@@ -439,6 +439,10 @@ footer {
         text-align: center;
    }
 
+   #get-food h2 {
+   		font-size: 18px;
+   }
+
    #what h3 {
         font-size: 18px;
         letter-spacing: 2px;
@@ -483,11 +487,11 @@ footer {
 		margin-bottom: 5px;
 	}
 
-   #fav-imgs .thumbnail {
-   	height: 130px;
-   	overflow: hidden;
-   	width: 100%;
-   }
+   	#fav-imgs .thumbnail {
+	   	height: 130px;
+	   	overflow: hidden;
+	   	width: 100%;
+   	}
    
    img.img-class.burger {
         margin-top: -10%;
