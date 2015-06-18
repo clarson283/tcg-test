@@ -31,8 +31,9 @@ function initialize() {
        $("#counter #lastNum").text(num[4]);
     }); 
 */
-
+/*
     $('.carousel').on("mouseenter", function {
-        $('.carouset').carousel('pause');
-    })
+        $('.carousel').carousel('pause');
+    });
+*/
 });
