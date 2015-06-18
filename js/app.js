@@ -21,11 +21,14 @@ function initialize() {
   		});
 	}
 
-      google.maps.event.addDomListener(window, 'load', initialize);
-
+    google.maps.event.addDomListener(window, 'load', initialize);
 /*
-      $("#fav-imgs").mouseenter( function () {
-          $("#fav-imgs img").css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))');
-      });
+    var num = 24655;
+
+    $(".hover-stuff button").on("click", function () {
+       num++;
+       $("#counter #numOne").text(num[0]);
+       $("#counter #lastNum").text(num[4]);
+    }); 
 */
 });
