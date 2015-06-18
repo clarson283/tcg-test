@@ -365,7 +365,6 @@ h1.headliner {
 				}
 
 #onion-bowl {
-	background-image: url('images/onions.png');
 	background-repeat: round;
 	margin: 40px 0;
 	padding: 0px;
@@ -600,6 +599,11 @@ footer {
 		width: 30%;
 	}
 
+	#onion-bowl {
+		background-image: url('images/onion-two.png');
+		background-position: left top;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -695,6 +699,10 @@ footer {
 
 	div#line-break hr {
 		width: 8%;
+	}
+
+	#onion-bowl {
+		background-image: url('images/onions.png');
 	}
 
 }
