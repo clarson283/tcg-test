@@ -184,8 +184,7 @@ h1.headliner {
     right: 0;
     top: 0;
     width: 55%;
-    background: orange;
-    opacity: .7;
+    background: linear-gradient(to right, rgba(204,102,0,0.79) 0%, rgba(204,102,0,0.46) 98%, rgba(255,175,75,0.45) 100%);
     left: 45%;
 }
 
