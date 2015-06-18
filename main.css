@@ -196,33 +196,6 @@ h1.headliner {
     text-shadow: none;
 }
 
-.carousel-caption:before {
-    content:"";
-    display: block;
-    position: absolute;
-    top: 0;
-    height: 80%;
-    left: 0;
-    border-left: 20px solid rgba(255, 255, 255, 1);
-    border-bottom: 20px solid transparent;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.carousel-caption:after {
-    content:"";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    height: 20%;
-    left: 0;
-    border-left: 20px solid rgba(255, 255, 255, 1);
-    border-top: 20px solid transparent;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 .carousel-caption h2 {
 	font-family: Georgia, serif;
 	letter-spacing: 1.2px;
@@ -604,6 +577,27 @@ footer {
 		background-position: left top;
 	}
 
+	#testimonials img {
+		height: 200px;
+	}
+
+	.carousel-caption {
+		padding: 12px;
+	}
+
+	.carousel-caption h2 {
+		display: none;
+	}
+
+	.carousel-caption p {
+		font-size: 12px;
+	}
+
+	.citation {
+		padding-bottom: 10px;
+		margin-top: 0;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -704,5 +698,32 @@ footer {
 	#onion-bowl {
 		background-image: url('images/onions.png');
 	}
+
+	.carousel-caption:before {
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 80%;
+    left: 0;
+    border-left: 20px solid rgba(255, 255, 255, 1);
+    border-bottom: 20px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.carousel-caption:after {
+    content:"";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    left: 0;
+    border-left: 20px solid rgba(255, 255, 255, 1);
+    border-top: 20px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 }
