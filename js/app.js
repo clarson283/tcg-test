@@ -23,7 +23,7 @@ function initialize() {
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
-
+/*
     var num = parseInt($("#counter #lastNum").html());
 
     $(".hover-stuff button").on("click", function () {
@@ -31,7 +31,7 @@ function initialize() {
        $("#counter #lastNum").text(num);
        //$("#counter #lastNum").text(num[4]);
     }); 
-
+*/
 
   $('.carousel').on("mouseenter", function () {
       $('.carousel').carousel('pause');

@@ -164,7 +164,7 @@ h1.headliner {
 	}
 
 		#join-mmd span {
-			font-size: 34px;
+			font-size: 44px;
 			color: black;
 			padding: 4px 8px;
 			margin: 2px;
@@ -462,6 +462,7 @@ footer {
 
    	#counter, #notSubtle {
 	   	padding-left: 0;
+	   	padding-right: 0;
 	   	text-align: center;
    	}
 
@@ -778,7 +779,7 @@ footer {
 
 	#find-food {
 		width: 55%;
-		margin-top: -100px;
+		margin-top: -120px;
 	}
 
 	#get-food {
@@ -807,6 +808,7 @@ footer {
 
 	#notSubtle {
 		font-size: 20px;
+		padding-left: 0;
 	}
 
 	#favorites {
