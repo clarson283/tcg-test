@@ -251,12 +251,14 @@ h1.headliner {
 #fav-imgs {
 	width: 100%;
 	padding: 0;
+	border: 0;
 }
 
 	#fav-imgs .thumbnail {
 		position: relative;
 		border: 0;
-		margin-bottom: 16px
+		border-radius: 0;
+		margin-bottom: 0px;
 	}
 
 		.thumbnail a>img, .thumbnail>img {
@@ -510,6 +512,10 @@ footer {
 		width: 30%;
 	}
 
+	#testimonials {
+		width: 90%;
+	}
+
 	#testimonials img {
 		height: 220px;
 	}
@@ -580,6 +586,7 @@ footer {
 		   	height: 130px;
 		   	overflow: hidden;
 		   	width: 100%;
+		   	margin-bottom: 16px;
 	   	}
    
    img.img-class.burger {
@@ -663,6 +670,7 @@ footer {
 		   	width: 90%;
 		   	margin: auto;
 		   	float: none !important;
+		   	margin-bottom: 16px;
 		   }
 
 		img.img-class.burger {
@@ -811,6 +819,10 @@ footer {
 	
 	#fav-imgs {
 		margin-bottom: 15px;
+	}
+
+	#fav-imgs .thumbnail {
+		padding: 8px;
 	}
 
 	#what {
