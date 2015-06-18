@@ -117,9 +117,6 @@ label {
 	visibility: hidden;
 }
 
-#contact-us .form-control:focus::-webkit-input-placeholder  { color:transparent; }
-#contact-us .form-control:focus::-moz-placeholder   { color:transparent; }
-
 select#hangry-opts {
 	border-radius: 0px;
 	font-family: Arial, sans-serif;
@@ -606,13 +603,24 @@ footer {
 	        padding-left: 0;
 	   }
 
+	   #contact-us .form-control {
+	   	margin-bottom: 12px;
+	   }
+
 	#icon-section img {
         height: 65px;
     }
 
+    #contact-us label {
+		display: none;
+	}
+
 }
 
 @media (min-width: 461px) and (max-width: 768px) {
+
+	#contact-us .form-control:focus::-webkit-input-placeholder  { color:transparent; }
+	#contact-us .form-control:focus::-moz-placeholder   { color:transparent; }
 
 		#top img {
 			height: 40px;
@@ -722,6 +730,9 @@ footer {
 	}
 
 @media (min-width: 768px) {
+
+	#contact-us .form-control:focus::-webkit-input-placeholder  { color:transparent; }
+	#contact-us .form-control:focus::-moz-placeholder   { color:transparent; }
 	
 	#freaking-food p.text-uppercase {
 		font-size: 36px;
