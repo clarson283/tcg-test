@@ -112,6 +112,9 @@
 label {
 	margin-bottom: 0px;
 	font-size: 8px;
+}
+
+#contact-us label {
 	letter-spacing: 2px;
 	vertical-align: text-top;
 	visibility: hidden;
@@ -132,7 +135,7 @@ select#hangry-opts {
 
 div#line-break hr {
 display: block;
-margin: 50px auto 30px auto;
+margin: 30px auto;
 border-top: 1px solid black;
 }
 
@@ -303,8 +306,7 @@ h1.headliner {
 	}
 
 		#what p {
-			font-size: 16px;
-			width: 75%;
+			font-size: 18px;
 			margin-bottom: 20px;
 			padding-top: 10px;
 		}
@@ -531,7 +533,7 @@ footer {
 		        font-size: 12px;
 		        margin: auto;
 		        text-align: center;
-		        width: 100%
+		        width: 85%
 		   	} 
 
 				#four-icons {
@@ -613,6 +615,10 @@ footer {
 
     #contact-us label {
 		display: none;
+	}
+
+	#icon-section img {
+		height: 75px;
 	}
 
 }
@@ -739,6 +745,8 @@ footer {
 		letter-spacing: 3px;
 		line-height: 1.2;
 		font-family: Arial, sans-serif;
+		width: 80%;
+		margin: auto;
 	}
 
 	#find-food {
