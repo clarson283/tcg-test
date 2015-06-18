@@ -23,15 +23,15 @@ function initialize() {
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
-/*
-    var num = 24655;
+
+    var num = parseInt($("#counter #lastNum").html());
 
     $(".hover-stuff button").on("click", function () {
        num++;
-       $("#counter #numOne").text(num[0]);
-       $("#counter #lastNum").text(num[4]);
+       $("#counter #lastNum").text(num);
+       //$("#counter #lastNum").text(num[4]);
     }); 
-*/
+
 
   $('.carousel').on("mouseenter", function () {
       $('.carousel').carousel('pause');
