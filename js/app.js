@@ -37,7 +37,44 @@ function initialize() {
         $('.carousel').carousel('pause');
     });
 */
+  $("input#inputFirstName").on("focus", function () {
+      $("label[for='inputFirstName']").css("visibility", "visible");
+  });
 
+  $("input#inputFirstName").on("blur", function () {
+      $("label[for='inputFirstName']").css("visibility", "hidden");
+  });
 
+  $("input#inputLastName").on("focus", function () {
+      $("label[for='inputLastName']").css("visibility", "visible");
+  });
+
+  $("input#inputLastName").on("blur", function () {
+      $("label[for='inputLastName']").css("visibility", "hidden");
+  });
+
+  $("input#inputPhoneNumber").on("focus", function () {
+      $("label[for='inputPhoneNumber']").css("visibility", "visible");
+  });
+
+  $("input#inputPhoneNumber").on("blur", function () {
+      $("label[for='inputPhoneNumber']").css("visibility", "hidden");
+  });
+
+  $("input#inputEmail").on("focus", function () {
+      $("label[for='inputEmail']").css("visibility", "visible");
+  });
+
+  $("input#inputEmail").on("blur", function () {
+      $("label[for='inputEmail']").css("visibility", "hidden");
+  });
+
+  $("textarea#inputMessage").on("focus", function () {
+      $("label[for='inputMessage']").css("visibility", "visible");
+  });
+
+  $("textarea#inputMessage").on("blur", function () {
+      $("label[for='inputMessage']").css("visibility", "hidden");
+  });
 
 });

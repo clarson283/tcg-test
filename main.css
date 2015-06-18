@@ -114,7 +114,11 @@ label {
 	font-size: 8px;
 	letter-spacing: 2px;
 	vertical-align: text-top;
+	visibility: hidden;
 }
+
+#contact-us .form-control:focus::-webkit-input-placeholder  { color:transparent; }
+#contact-us .form-control:focus::-moz-placeholder   { color:transparent; }
 
 select#hangry-opts {
 	border-radius: 0px;
