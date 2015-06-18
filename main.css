@@ -89,7 +89,7 @@
 	padding: 8px 16px;
 }
 
-	button.btn.btn-default:hover {
+	button.btn.btn-default:hover, button.btn.btn-default:focus {
 		background-color: #4DDBB8;
 		color: white;
 		transition: .4s ease-out;
@@ -99,6 +99,15 @@
 			margin-left: 0;
 			margin-bottom: 12px;
 		}
+
+#suggestion {
+		text-align: center;
+		font-size: 18px;
+		letter-spacing: 2px;
+		display: none;
+		text-transform: uppercase;
+		color: #B2B2B2;
+}
 
 .form-group.col-md-4 {
 	margin-top: 12px;
@@ -258,6 +267,7 @@ h1.headliner {
 				opacity: 1;
 				transition: 1s ease-out;
 			}
+
 /*
 #fav-imgs .thumbnail img {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
@@ -700,7 +710,7 @@ footer {
 	   }
 
 	   #find-food {
-			width: 90%;
+			width: 80%;
 			margin-top: -140px;
 		}
 

@@ -32,11 +32,28 @@ function initialize() {
        $("#counter #lastNum").text(num[4]);
     }); 
 */
-/*
-    $('.carousel').on("mouseenter", function {
-        $('.carousel').carousel('pause');
-    });
-*/
+
+  $('.carousel').on("mouseenter", function () {
+      $('.carousel').carousel('pause');
+  });
+
+
+  var possibilities = ['pizza', 'mozzarella sticks', 'pad thai', 'cookies', 'burritos', 'chocolate cake', 'ice cream', 'tacos', 'salad', 'filet mignon'];
+  var rand = possibilities[Math.floor(Math.random() * possibilities.length)];
+
+  $("#find-food button").on("click", function () {
+    var ingOne = $("#ingr-one").val();
+    var ingTwo = $("#ingr-two").val();
+      if (ingOne == "" && ingTwo == "") {
+        alert("You gotta put some ingredients, man...")
+      } else {
+        $("#foodOffer").text(rand);
+        $("#suggestion").show();
+      }
+  });
+  
+  
+
   $("input#inputFirstName").on("focus", function () {
       $("label[for='inputFirstName']").css("visibility", "visible");
   });
