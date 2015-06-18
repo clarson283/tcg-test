@@ -174,18 +174,26 @@ h1.headliner {
 		margin: auto;
 	}
 
+.carousel-indicators {
+	bottom: 2%;
+	right: 2%;
+	left: inherit;
+}
+
 .carousel-indicators li {
 	float: right;
 }
 
 .carousel-caption {
     height: 100%;
-    padding: 30px;
+    padding: 6px 30px 30px 40px;
     right: 0;
     top: 0;
     width: 55%;
     background: linear-gradient(to right, rgba(204,102,0,0.79) 0%, rgba(204,102,0,0.46) 98%, rgba(255,175,75,0.45) 100%);
     left: 45%;
+    text-align: left;
+    text-shadow: none;
 }
 
 .carousel-caption:before {
@@ -213,6 +221,21 @@ h1.headliner {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.carousel-caption h2 {
+	font-family: Georgia, serif;
+	letter-spacing: 1.2px;
+	font-size: 30px;
+
+}
+
+.citation {
+	color: #4C4C4C;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin-top: 30px
 }
 
 #favorites {
