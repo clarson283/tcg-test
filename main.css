@@ -21,12 +21,12 @@
 			#dinner-navbar li a:hover, #dinner-navbar li a:focus {
 				text-decoration: none;
 				background-color: white;
-				color: #5CE6B8;
-				border-top: 4px solid #5CE6B8;
+				color: #4DDBB8;
+				border-top: 4px solid #4DDBB8;
 			}
 
 .navbar-toggle .icon-bar {
-	background-color: #5CE6B8;
+	background-color: #4DDBB8;
 }
 
 #top img {
@@ -90,19 +90,30 @@
 }
 
 	button.btn.btn-default:hover {
-		background-color: #5CE6B8;
+		background-color: #4DDBB8;
 		color: white;
 		transition: .4s ease-out;
 	}
 
 		button#submit {
 			margin-left: 0;
-			margin-bottom: 16px;
+			margin-bottom: 12px;
 		}
 
 .form-group.col-md-4 {
 	margin-top: 12px;
 	margin-bottom: 22px;
+}
+
+.form-group {
+	margin-bottom: 0px;
+}
+
+label {
+	margin-bottom: 0px;
+	font-size: 8px;
+	letter-spacing: 2px;
+	vertical-align: text-top;
 }
 
 select#hangry-opts {
@@ -125,7 +136,7 @@ border-top: 1px solid black;
 }
 
 h1.headliner {
-	color: #5CE6B8;
+	color: #4DDBB8;
 	display: block;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -148,13 +159,13 @@ h1.headliner {
 		}
 
 			#join-mmd #lastNum {
-				border: 1px solid #5CE6B8;
+				border: 1px solid #4DDBB8;
 			}
 
 #counter {
 	padding-left: 0;
 	vertical-align: bottom;
-	color: #5CE6B8;
+	color: #4DDBB8;
 }
 
 #notSubtle {
@@ -271,7 +282,7 @@ h1.headliner {
 
 	.hover-stuff button {
 		background-color: inherit;
-		border: 2px solid #5CE6B8;
+		border: 2px solid #4DDBB8;
 		border-radius: 0;
 		text-transform: uppercase;
 		letter-spacing: 2px;
@@ -280,7 +291,7 @@ h1.headliner {
 	}
 
 #what {
-	background-color: #5CE6B8;
+	background-color: #4DDBB8;
 }
 
 	#what h3 {
@@ -345,7 +356,7 @@ h1.headliner {
 
 #icon-section {
 	margin-top: 40px;
-	background-color: #5CE6B8;
+	background-color: #4DDBB8;
 	text-align: center;
 }
 
@@ -355,7 +366,7 @@ h1.headliner {
 	}
 
 #contact-us .form-control {
-	color: #5CE6B8;
+	color: #4DDBB8;
 	letter-spacing: 2px;
 	border-radius: 0;
 	border-color: black;
@@ -378,7 +389,7 @@ h1.headliner {
 	}
 
 		#contact-us .form-control {
-			color: #5CE6B8;
+			color: #4DDBB8;
 			letter-spacing: 2px;
 			border-radius: 0;
 			border-color: black;
@@ -728,7 +739,7 @@ footer {
 	h1.headliner {
 		text-align: left;
 		margin-bottom: 30px;
-		font-size: 28px;
+		font-size: 30px;
 		letter-spacing: 3px;
 	}
 
@@ -771,7 +782,7 @@ footer {
 	}
 
 		#contact-us .form-group {
-			margin-bottom: 20px;
+			margin-bottom: 0px;
 	        padding-right: 20px;
 	        padding-left: 0;
 		}

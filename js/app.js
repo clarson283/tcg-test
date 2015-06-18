@@ -22,6 +22,7 @@ function initialize() {
 	}
 
     google.maps.event.addDomListener(window, 'load', initialize);
+
 /*
     var num = 24655;
 
@@ -36,4 +37,7 @@ function initialize() {
         $('.carousel').carousel('pause');
     });
 */
+
+
+
 });
