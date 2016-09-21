@@ -1,12 +1,12 @@
 $(document).ready(function() {
 
-function initialize() {
+   function initialize() {
         var mapOptions = {
           center: { lat: -3.070, lng: 37.349},
           zoom: 8
         };
         var map = new google.maps.Map(document.getElementById('map-canvas'),
-            mapOptions);    	
+            mapOptions);
     	var image = {
     		url: 'images/map-icon.png',
     		scaledSize: new google.maps.Size(40, 42),
@@ -30,8 +30,18 @@ function initialize() {
        num++;
        $("#counter #lastNum").text(num);
        //$("#counter #lastNum").text(num[4]);
-    }); 
+    });
 */
+
+   $('#onion-bowl').find('li').on('click', function(e) {
+      e.preventDefault();
+
+      $(this).createSheet({
+         text        : 'hello worlddddd',
+         color       : '#005dff',
+         fontStyle   : 'italic'
+      });
+   });
 
   $('.carousel').on("mouseenter", function () {
       $('.carousel').carousel('pause');
@@ -51,8 +61,8 @@ function initialize() {
         $("#suggestion").show();
       }
   });
-  
-  
+
+
 
   $("input#inputFirstName").on("focus", function () {
       $("label[for='inputFirstName']").css("visibility", "visible");
